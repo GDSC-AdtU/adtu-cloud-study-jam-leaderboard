@@ -96,6 +96,14 @@
     "Redemption Status": "Yes"
   },
   {
+    "Student Name": "Saurajyoti das",
+    "# of Courses Completed": 4,
+    "# of Skill Badges Completed": 4,
+    "# of GenAI Game Completed": 1,
+    "Total Completions of both Pathways": "Yes",
+    "Redemption Status": "Yes"
+  },
+  {
     "Student Name": "Samujjal Talukdar",
     "# of Courses Completed": 0,
     "# of Skill Badges Completed": 0,
@@ -1003,14 +1011,6 @@
     "# of Skill Badges Completed": 0,
     "# of GenAI Game Completed": 1,
     "Total Completions of both Pathways": "No",
-    "Redemption Status": "Yes"
-  },
-  {
-    "Student Name": "Saurajyoti das",
-    "# of Courses Completed": 4,
-    "# of Skill Badges Completed": 4,
-    "# of GenAI Game Completed": 1,
-    "Total Completions of both Pathways": "Yes",
     "Redemption Status": "Yes"
   },
   {
