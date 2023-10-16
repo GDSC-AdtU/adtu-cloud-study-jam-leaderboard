@@ -1,1 +1,1 @@
-# Google Cloud Study Jams Leaderboard
+# Google Cloud Study Jams Leaderboard 
