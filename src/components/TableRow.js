@@ -25,12 +25,12 @@ function TableRow({ participant }) {
       <td className="Institution mob:hidden relative p-3">
         <div
           className={`m-auto w-fit rounded-3xl px-2 py-1 text-center ${
-            participant["Institution"] == "Assam down town University"
+            participant["Institution"] == "Assam Down Town University - Guwahati"
               ? "bg-green-200 text-green-600"
               : "bg-yellow-200 text-yellow-600"
           }`}
         >
-          {participant["Institution"] == "Assam down town University"
+          {participant["Institution"] == "Assam Down Town University - Guwahati"
             ? "AdtU"
             : "Other"}
         </div>
