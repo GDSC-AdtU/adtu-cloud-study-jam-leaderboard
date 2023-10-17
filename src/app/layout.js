@@ -8,7 +8,7 @@ export const metadata = {
   title: "GDSC | Assam down town University",
   image: "",
   type: "website",
-  description: "This is the leaderboard for the GDSC Adtu Jams",
+  description: "This is the leaderboard for the GDSC AdtU Jams",
   keywords: ["gcsj", "jams", "adtu", "gdscadtu"],
   robots: "index,follow",
 
