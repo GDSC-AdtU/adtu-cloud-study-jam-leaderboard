@@ -186,6 +186,36 @@
     "Total Completions of both Pathways": "Yes",
     "Redemption Status": "Yes"
   },
+  {
+    "Student Name": "Kivinoli K Awomi",
+    "Institution": "Assam Down Town University - Guwahati",
+    "Enrolment Status": "All Good",
+    "# of Courses Completed": 4,
+    "# of Skill Badges Completed": 4,
+    "# of GenAI Game Completed": 1,
+    "Total Completions of both Pathways": "Yes",
+    "Redemption Status": "Yes"
+  },
+  {
+    "Student Name": "Pragyan Kalita",
+    "Institution": "Assam Down Town University - Guwahati",
+    "Enrolment Status": "All Good",
+    "# of Courses Completed": 4,
+    "# of Skill Badges Completed": 4,
+    "# of GenAI Game Completed": 1,
+    "Total Completions of both Pathways": "Yes",
+    "Redemption Status": "Yes"
+  },
+  {
+    "Student Name": "Bikash Jyoti Bangthai",
+    "Institution": "Assam Down Town University - Guwahati",
+    "Enrolment Status": "All Good",
+    "# of Courses Completed": 4,
+    "# of Skill Badges Completed": 4,
+    "# of GenAI Game Completed": 1,
+    "Total Completions of both Pathways": "Yes",
+    "Redemption Status": "Yes"
+  },
     {
       "Student Name": "Samujjal Talukdar",
       "Institution": "Assam Down Town University - Guwahati",
@@ -197,22 +227,12 @@
       "Redemption Status": "Yes"
     },
     {
-      "Student Name": "Pragyan Kalita",
-      "Institution": "Assam Down Town University - Guwahati",
-      "Enrolment Status": "All Good",
-      "# of Courses Completed": 4,
-      "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 1,
-      "Total Completions of both Pathways": "No",
-      "Redemption Status": "Yes"
-    },
-    {
       "Student Name": "Khushi Debbarma",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
       "# of Courses Completed": 0,
       "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 0,
+      "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
       "Redemption Status": "Yes"
     },
@@ -230,7 +250,7 @@
       "Student Name": "Preeti Das",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
-      "# of Courses Completed": 0,
+      "# of Courses Completed": 1,
       "# of Skill Badges Completed": 0,
       "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
@@ -242,7 +262,7 @@
       "Enrolment Status": "All Good",
       "# of Courses Completed": 0,
       "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 0,
+      "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
       "Redemption Status": "Yes"
     },
@@ -370,7 +390,7 @@
       "Student Name": "Subhajit Roy",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
-      "# of Courses Completed": 0,
+      "# of Courses Completed": 3,
       "# of Skill Badges Completed": 0,
       "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
@@ -422,7 +442,7 @@
       "Enrolment Status": "All Good",
       "# of Courses Completed": 0,
       "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 0,
+      "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
       "Redemption Status": "Yes"
     },
@@ -507,21 +527,11 @@
       "Redemption Status": "Yes"
     },
     {
-      "Student Name": "Bikash Jyoti Bangthai",
-      "Institution": "Assam Down Town University - Guwahati",
-      "Enrolment Status": "All Good",
-      "# of Courses Completed": 3,
-      "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 1,
-      "Total Completions of both Pathways": "No",
-      "Redemption Status": "Yes"
-    },
-    {
       "Student Name": "Kaustav Raj Kalita",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
       "# of Courses Completed": 4,
-      "# of Skill Badges Completed": 1,
+      "# of Skill Badges Completed": 3,
       "# of GenAI Game Completed": 0,
       "Total Completions of both Pathways": "No",
       "Redemption Status": "Yes"
@@ -570,7 +580,7 @@
       "Student Name": "Krishna Moni Das",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
-      "# of Courses Completed": 0,
+      "# of Courses Completed": 1,
       "# of Skill Badges Completed": 0,
       "# of GenAI Game Completed": 0,
       "Total Completions of both Pathways": "No",
@@ -590,7 +600,7 @@
       "Student Name": "JAHANGIR ALOM",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
-      "# of Courses Completed": 1,
+      "# of Courses Completed": 3,
       "# of Skill Badges Completed": 0,
       "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
@@ -630,7 +640,7 @@
       "Student Name": "Laxmi Thapa",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
-      "# of Courses Completed": 1,
+      "# of Courses Completed": 3,
       "# of Skill Badges Completed": 0,
       "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
@@ -671,7 +681,7 @@
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
       "# of Courses Completed": 4,
-      "# of Skill Badges Completed": 2,
+      "# of Skill Badges Completed": 4,
       "# of GenAI Game Completed": 0,
       "Total Completions of both Pathways": "No",
       "Redemption Status": "Yes"
@@ -680,7 +690,7 @@
       "Student Name": "Sneha Saha",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
-      "# of Courses Completed": 0,
+      "# of Courses Completed": 2,
       "# of Skill Badges Completed": 0,
       "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
@@ -700,7 +710,7 @@
       "Student Name": "Snigdha Ray",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
-      "# of Courses Completed": 0,
+      "# of Courses Completed": 1,
       "# of Skill Badges Completed": 0,
       "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
@@ -900,9 +910,9 @@
       "Student Name": "Asif Ikbal Hossain",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
-      "# of Courses Completed": 0,
+      "# of Courses Completed": 2,
       "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 0,
+      "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
       "Redemption Status": "Yes"
     },
@@ -1000,7 +1010,7 @@
       "Student Name": "Sanjay Barman",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
-      "# of Courses Completed": 1,
+      "# of Courses Completed": 4,
       "# of Skill Badges Completed": 0,
       "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
@@ -1157,16 +1167,6 @@
       "Redemption Status": "No"
     },
     {
-      "Student Name": "Kivinoli K Awomi",
-      "Institution": "Assam Down Town University - Guwahati",
-      "Enrolment Status": "All Good",
-      "# of Courses Completed": 4,
-      "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 1,
-      "Total Completions of both Pathways": "No",
-      "Redemption Status": "Yes"
-    },
-    {
       "Student Name": "Santanu koushik das",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
@@ -1192,7 +1192,7 @@
       "Enrolment Status": "All Good",
       "# of Courses Completed": 0,
       "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 0,
+      "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
       "Redemption Status": "Yes"
     },
@@ -1400,7 +1400,7 @@
       "Student Name": "Avoy Baruah",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
-      "# of Courses Completed": 1,
+      "# of Courses Completed": 4,
       "# of Skill Badges Completed": 0,
       "# of GenAI Game Completed": 0,
       "Total Completions of both Pathways": "No",
@@ -1430,7 +1430,7 @@
       "Student Name": "Ankur Kumar",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
-      "# of Courses Completed": 1,
+      "# of Courses Completed": 2,
       "# of Skill Badges Completed": 0,
       "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
@@ -1466,4 +1466,6 @@
       "Total Completions of both Pathways": "No",
       "Redemption Status": "Yes"
     }
+  
+
 ]
