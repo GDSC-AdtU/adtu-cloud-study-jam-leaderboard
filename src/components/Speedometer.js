@@ -51,13 +51,13 @@ function Speedometer({ completion }) {
       </div>
       <div className="absolute -bottom-5 w-60 h-20 bg-white rounded-t-full text-center font-semibold px-5 pt-10 text-green-500">
         <p className="bottom-0">
-          {animationValue > 40
-            ? animationValue > 60
-              ? animationValue > 80
+          {animationValue <= 80
+            ? animationValue <= 60
+              ? animationValue <= 40
                 ? "Outstanding"
-                : "Level 1"
+                : "Level 3"
               : "Level 2"
-            : "Level 3"}
+            : "Level 1"}
         </p>
         <p>{`${animationValue}`}</p>
       </div>
