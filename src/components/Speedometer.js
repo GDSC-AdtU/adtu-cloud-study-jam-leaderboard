@@ -51,7 +51,7 @@ function Speedometer({ completion }) {
       </div>
       <div className="absolute -bottom-5 w-60 h-20 bg-white rounded-t-full text-center font-semibold px-5 pt-10 text-green-500">
         <p className="bottom-0">
-          {animationValue <= 80
+          {animationValue <= 79
             ? animationValue <= 60
               ? animationValue <= 40
                 ? "Outstanding"
