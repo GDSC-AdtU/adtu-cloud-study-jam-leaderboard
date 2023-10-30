@@ -55,9 +55,9 @@ function Speedometer({ completion }) {
             ? animationValue <= 60
               ? animationValue <= 40
                 ? "Outstanding"
-                : "Level 3"
-              : "Level 2"
-            : "Level 1"}
+                : "Tier 3"
+              : "Tier 2"
+            : "Tier 1"}
         </p>
         <p>{`${animationValue}`}</p>
       </div>
