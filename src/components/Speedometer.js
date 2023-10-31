@@ -10,7 +10,7 @@ function Speedometer({ completion }) {
     const endValue = completion;
 
     const animationInterval = setInterval(() => {
-      if (startValue <= endValue) {
+      if (startValue >= endValue) {
         clearInterval(animationInterval);
       } else {
         startValue += 1;
