@@ -784,6 +784,46 @@
     "Total Completions of both Pathways": "Yes",
     "Redemption Status": "Yes"
   },
+  {
+    "Student Name": "Nilanjan Nath",
+    "Institution": "Assam Down Town University - Guwahati",
+    "Enrolment Status": "All Good",
+    "# of Courses Completed": 4,
+    "# of Skill Badges Completed": 4,
+    "# of GenAI Game Completed": 1,
+    "Total Completions of both Pathways": "Yes",
+    "Redemption Status": "Yes"
+  },
+  {
+    "Student Name": "Sahil Kumar Singh",
+    "Institution": "Assam Down Town University - Guwahati",
+    "Enrolment Status": "All Good",
+    "# of Courses Completed": 4,
+    "# of Skill Badges Completed": 4,
+    "# of GenAI Game Completed": 1,
+    "Total Completions of both Pathways": "Yes",
+    "Redemption Status": "Yes"
+  },
+  {
+    "Student Name": "Cheangchang CH Momin",
+    "Institution": "Assam Down Town University - Guwahati",
+    "Enrolment Status": "All Good",
+    "# of Courses Completed": 4,
+    "# of Skill Badges Completed": 4,
+    "# of GenAI Game Completed": 1,
+    "Total Completions of both Pathways": "Yes",
+    "Redemption Status": "Yes"
+  },
+  {
+    "Student Name": "Simran Biswakarma",
+    "Institution": "Assam Down Town University - Guwahati",
+    "Enrolment Status": "All Good",
+    "# of Courses Completed": 4,
+    "# of Skill Badges Completed": 4,
+    "# of GenAI Game Completed": 1,
+    "Total Completions of both Pathways": "Yes",
+    "Redemption Status": "Yes"
+  },
     {
       "Student Name": "Deepika Rai",
       "Institution": "Assam Down Town University - Guwahati",
@@ -798,18 +838,8 @@
       "Student Name": "Avayjeet Paul",
       "Institution": "Assam Down Town University - Guwahati",
       "Enrolment Status": "All Good",
-      "# of Courses Completed": 0,
+      "# of Courses Completed": 1,
       "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 0,
-      "Total Completions of both Pathways": "No",
-      "Redemption Status": "Yes"
-    },
-    {
-      "Student Name": "Nilanjan Nath",
-      "Institution": "Assam Down Town University - Guwahati",
-      "Enrolment Status": "All Good",
-      "# of Courses Completed": 4,
-      "# of Skill Badges Completed": 3,
       "# of GenAI Game Completed": 1,
       "Total Completions of both Pathways": "No",
       "Redemption Status": "Yes"
@@ -830,16 +860,6 @@
       "Enrolment Status": "All Good",
       "# of Courses Completed": 0,
       "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 0,
-      "Total Completions of both Pathways": "No",
-      "Redemption Status": "Yes"
-    },
-    {
-      "Student Name": "Sahil Kumar Singh",
-      "Institution": "Assam Down Town University - Guwahati",
-      "Enrolment Status": "All Good",
-      "# of Courses Completed": 4,
-      "# of Skill Badges Completed": 4,
       "# of GenAI Game Completed": 0,
       "Total Completions of both Pathways": "No",
       "Redemption Status": "Yes"
@@ -1023,16 +1043,6 @@
       "# of GenAI Game Completed": 0,
       "Total Completions of both Pathways": "No",
       "Redemption Status": "No"
-    },
-    {
-      "Student Name": "Simran Biswakarma",
-      "Institution": "Assam Down Town University - Guwahati",
-      "Enrolment Status": "All Good",
-      "# of Courses Completed": 4,
-      "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 1,
-      "Total Completions of both Pathways": "No",
-      "Redemption Status": "Yes"
     },
     {
       "Student Name": "Suhita Choudhury",
@@ -1373,16 +1383,6 @@
       "# of GenAI Game Completed": 0,
       "Total Completions of both Pathways": "No",
       "Redemption Status": "No"
-    },
-    {
-      "Student Name": "Cheangchang CH Momin",
-      "Institution": "Assam Down Town University - Guwahati",
-      "Enrolment Status": "All Good",
-      "# of Courses Completed": 3,
-      "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 0,
-      "Total Completions of both Pathways": "No",
-      "Redemption Status": "Yes"
     },
     {
       "Student Name": "Adarsh Sharma Khanal",
