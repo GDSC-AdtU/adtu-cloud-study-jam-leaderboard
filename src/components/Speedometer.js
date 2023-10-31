@@ -5,7 +5,7 @@ function Speedometer({ completion }) {
 
   useEffect(() => {
     // Animate the speedometer when 'completion' prop changes
-    const animationDuration = 5000; // You can adjust the duration
+    const animationDuration = 3000; // You can adjust the duration
     let startValue = 0;
     const endValue = completion;
 
