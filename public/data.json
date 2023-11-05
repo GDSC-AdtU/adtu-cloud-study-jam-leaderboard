@@ -824,6 +824,16 @@
     "Total Completions of both Pathways": "Yes",
     "Redemption Status": "Yes"
   },
+  {
+    "Student Name": "Bhargab muni",
+    "Institution": "Assam Down Town University - Guwahati",
+    "Enrolment Status": "All Good",
+    "# of Courses Completed": 4,
+    "# of Skill Badges Completed": 4,
+    "# of GenAI Game Completed": 1,
+    "Total Completions of both Pathways": "Yes",
+    "Redemption Status": "Yes"
+  },
     {
       "Student Name": "Deepika Rai",
       "Institution": "Assam Down Town University - Guwahati",
@@ -853,16 +863,6 @@
       "# of GenAI Game Completed": 0,
       "Total Completions of both Pathways": "No",
       "Redemption Status": "No"
-    },
-    {
-      "Student Name": "Bhargab muni",
-      "Institution": "Assam Down Town University - Guwahati",
-      "Enrolment Status": "All Good",
-      "# of Courses Completed": 0,
-      "# of Skill Badges Completed": 0,
-      "# of GenAI Game Completed": 0,
-      "Total Completions of both Pathways": "No",
-      "Redemption Status": "Yes"
     },
     {
       "Student Name": "Barsha Deb",
