@@ -1,65 +1,83 @@
 import React from "react";
 
-function TableRow({ participant }) {
+function TableRow({ participant, rank }) {
   // console.log(participant)
   return (
-    <tr className=" border border-b-slate-200 odd:bg-white even:bg-gray-50">
-      <td className="Student_Name p-3 uppercase">
-        {participant["Student Name"]}
-        {participant["Total Completions of both Pathways"] == "Yes" ? "🏅" : ""}
-      </td>
 
+    <tr className=" border border-b-slate-200 odd:bg-white even:bg-gray-50">
+      <td className="Rank p-3 text-center">
+        <div className={`w-fit m-auto rounded-3xl px-4 py-1 text-center 
+          } ${rank == "1"
+            ? "g-amber-400 text-amber-600"
+            : rank == "2"
+              ? "bg-silver-200 text-gray-600"
+              : rank == "3"
+                ? "bg-bronze-200 text-yellow-600"
+                : ""
+          }`}>
+          {rank == "1" ? "🥇" : rank == "2" ? "🥈" : rank == "3" ? "🥉" : rank}
+        </div>
+      </td>
+      <td className="Student_Name p-3 uppercase">
+        {participant["User Name"]}
+        {participant["All Skill Badges & Games Completed"] == "Yes" ? "🏅" : ""}
+      </td>
 
       <td className="Redemption_Status p-3 relative">
         <div
-          className={`w-fit m-auto rounded-3xl px-4 py-1 text-center ${
-            participant["Redemption Status"] == "Yes"
-              ? "bg-green-200 text-green-600"
-              : "bg-yellow-200 text-yellow-600"
-          }`}
+          className={`w-fit m-auto rounded-3xl px-4 py-1 text-center ${participant["Access Code Redemption Status"] == "Yes"
+            ? "bg-green-200 text-green-600"
+            : "bg-red-200 text-yellow-600"
+            }`}
         >
-          {participant["Redemption Status"] == "Yes" ? "Done" : "Not!"}
+          {participant["Access Code Redemption Status"] == "Yes" ? "Done" : "No!"}
         </div>
       </td>
 
       <td className="Institution mob:hidden relative p-3">
         <div
-          className={`m-auto w-fit rounded-3xl px-2 py-1 text-center ${
-            participant["Institution"] == "Assam Down Town University - Guwahati"
-              ? "bg-green-200 text-green-600"
-              : "bg-yellow-200 text-yellow-600"
-          }`}
+          className={`m-auto w-fit rounded-3xl px-2 py-1 text-center bg-green-200 text-green-600
+            
+            }`}
         >
-          {participant["Institution"] == "Assam Down Town University - Guwahati"
-            ? "AdtU"
-            : "Other"}
+          {"AdtU"}
         </div>
       </td>
 
       <td className="Completions_both_Pathways_relative p-3 text-center">
         <div
-          className={`m-auto w-fit rounded-3xl px-5 py-1 text-center ${
-            participant["Total Completions of both Pathways"] == "Yes"
-              ? "bg-green-200 text-green-600"
-              : "bg-yellow-200 text-yellow-600"
-          }`}
+          className={`m-auto w-fit rounded-3xl px-5 py-1 text-center ${participant["All Skill Badges & Games Completed"] == "Yes"
+            ? "bg-green-200 text-green-600"
+            : "bg-orange-200 text-orange-600"
+            }`}
         >
-          {participant["Total Completions of both Pathways"] == "Yes"
+          {participant["All Skill Badges & Games Completed"] == "Yes"
             ? "Yes"
-            : "No !"}
+            : "No!"}
         </div>
       </td>
 
-      <td className="no_Courses_Completed mob:hidden p-3 text-center">
+      {/* <td className="no_Courses_Completed mob:hidden p-3 text-center">
         {participant["# of Courses Completed"]}
-      </td>
+      </td> */}
 
       <td className="no_Skill_Badges_Completed mob:hidden p-3 text-center">
-        {participant["# of Skill Badges Completed"]}
+        <div
+          className={`m-auto w-fit rounded-3xl px-2 py-1 text-center`}
+        >
+          {participant["# of Skill Badges Completed"]}
+        </div>
       </td>
 
-      <td className="GenAI_Game_Completed mob:hidden p-3 text-center">
-        {participant["# of GenAI Game Completed"]}
+      <td className="w-fit m-auto rounded-3xl px-4 py-1 text-center">
+        <div
+          className={`m-auto w-fit rounded-3xl px-2 py-1 text-center ${participant["# of Arcade Games Completed"] == "1"
+            ? "bg-green-200 text-green-600"
+            : "bg-yellow-200 text-yellow-600"
+            }`}
+        >
+          {participant["# of Arcade Games Completed"] == "1" ? "Yes" : "No"}
+        </div>
       </td>
     </tr>
   );

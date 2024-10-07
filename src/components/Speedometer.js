@@ -8,6 +8,7 @@ function Speedometer({ completion }) {
     const animationDuration = 3000; // You can adjust the duration
     let startValue = 0;
     const endValue = completion;
+    console.log(completion)
 
     const animationInterval = setInterval(() => {
       if (startValue >= endValue) {
@@ -36,7 +37,7 @@ function Speedometer({ completion }) {
         <div className="relative w-32 h-32 bg-white rounded-full "></div>
 
         <svg
-          className="absolute z-10 w-40 h-20 -left-0 bottom-5 rotate-[119deg]   flex justify-center items-center text-center"
+          className={`absolute z-10 w-40 h-20 -left-0 bottom-5 rotate-[${(animationValue / 100) * 240 - 120}deg] flex justify-center items-center text-center`}
           viewBox="0 0 528 52"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -49,15 +50,15 @@ function Speedometer({ completion }) {
           <ellipse cx="293.173" cy="26" rx="14.9255" ry="14" fill="#FFCC18" />
         </svg>
       </div>
-      <div className="absolute -bottom-5 w-60 h-20 bg-white rounded-t-full text-center font-semibold px-5 pt-10 text-green-500">
+      <div className="absolute -bottom-5 w-60 h-20 bg-white rounded-t-full text-center font-semibold px-5 pt-10 text-black-500">
         <p className="bottom-0">
-          {animationValue <= 79
-            ? animationValue <= 60
-              ? animationValue <= 40
+          {animationValue >= 79
+            ? animationValue >= 60
+              ? animationValue >= 40
                 ? "Outstanding"
-                : "Tier 3"
+                : "Tier 1"
               : "Tier 2"
-            : "Tier 1"}
+            : "No Tier"}
         </p>
         <p>{`${animationValue}`}</p>
       </div>

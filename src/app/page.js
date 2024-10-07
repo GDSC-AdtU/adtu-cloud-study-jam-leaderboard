@@ -43,7 +43,7 @@ export default function Home() {
           <div className="">
             <Image src="/assets/cloudLg.png" alt="me" width="40" height="40" />
           </div>
-          <p className="">Google Cloud STUDY JAMS 23 - 24</p>
+          <p className="">Google GenAI Study Jams 2024</p>
         </div>
 
         <div className="p-3 flex mob:flex-col m-auto max-w-6xl justify-between items-center">
@@ -57,7 +57,7 @@ export default function Home() {
               />
             </div>
             <div className="text flex flex-col justify-start items-start">
-              <p className="text-base">Google Developer Student Club</p>
+              <p className="text-base">Google Developers Group on Campus</p>
               <p className="text-xs">Assam down town University, Guwahati</p>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function Home() {
         <a
           className="text-orange-400"
         >
-          Ayan Masood & Najir M Dewan
+          GDG on Campus | AdtU
         </a>
       </div>
     </>

@@ -14,7 +14,7 @@ function TableIndex() {
   const calculateTotalEligibility = () => {
     let total = 0;
     data.forEach((ele) => {
-      ele["Total Completions of both Pathways"] == "Yes" && total++;
+      ele["All Skill Badges & Games Completed"] == "Yes" && total++;
     });
     setEligibleforSwags(total);
   };
@@ -22,7 +22,7 @@ function TableIndex() {
   const searchname = (name) => {
     const newArr = [];
     for (let i = 0; i < data.length; i++) {
-      let participant = data[i]["Student Name"].toLowerCase();
+      let participant = data[i]["User Name"].toLowerCase();
       let match = participant.includes(name.toLowerCase());
       if (match) newArr.push(data[i]);
     }
@@ -37,9 +37,9 @@ function TableIndex() {
   return (
     <div className="w-full relative px-3">
       <div className="sec m-auto my-10 space-y-8 w-1/2 mob:w-full flex flex-col">
-        <div className="message bg-yellow-100 text-yellow-700 p-5 rounded-lg shadow-lg shadow-yellow-300/30 text-center border border-yellow-300/30">
-          <p className="text-center">-: Todays Quote :-</p>
-          <p>Innovation is the calling card of the future.</p>
+        <div className="message bg-red-100 text-red-700 p-5 rounded-lg shadow-lg shadow-black-300/30 text-center border border-black-300/30">
+          <p className="text-center">Deadline: </p>
+          <p>31st October 2024 | 11:59 PM {"(IST)"}</p>
         </div>
         <Speedometer completion={EligibleforSwags} />
 
@@ -49,7 +49,7 @@ function TableIndex() {
               No of Eligible <br /> Participants for swags
             </p>
             <p className="no text-2xl border-l-2 border-l-green-700 pl-3 text-green-800">
-              {EligibleforSwags}
+              {EligibleforSwags <= 80 ? EligibleforSwags : 80}
             </p>
           </div>
           <div className="eligibleforswag w-fit mob:w-full h-20 p-5 space-x-5 rounded-lg flex flex-row justify-evenly mob:justify-between items-center bg-blue-50 shadow-lg shadow-blue-300/30 border border-blue-200">
@@ -94,7 +94,10 @@ function TableIndex() {
       <table className="mx-auto table-fixed m-5  ">
         <thead className="shadow-md text-sm bg-blue-500 text-gray-200 sticky top-2 z-10">
           <tr className="text-center ">
-            <td className="rounded-ss-lg w-80 p-2 border-r-2 border-r-gray-300">
+            <td className="rounded-ss-lg p-2 px-10 border-r-2 border-r-gray-300">
+              Rank
+            </td>
+            <td className="mob:hidden w-80 p-2 border-r-2 border-r-gray-300">
               Name
             </td>
             {/* <td className="p-2 border-r-2 border-r-gray-300">Email</td> */}
@@ -107,9 +110,7 @@ function TableIndex() {
             <td className="mob:rounded-se-lg p-2 border-r-2 border-r-gray-300 max-w-[150px]">
               Completions of both Pathways
             </td>
-            <td className="mob:hidden p-2 border-r-2 border-r-gray-300 max-w-[150px]">
-              No Courses Completed
-            </td>
+
             <td className="mob:hidden p-2 border-r-2 border-r-gray-300 max-w-[150px]">
               No Skill Badges Completed
             </td>
