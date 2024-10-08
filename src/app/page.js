@@ -43,7 +43,7 @@ export default function Home() {
           <div className="">
             <Image src="/assets/cloudLg.png" alt="me" width="40" height="40" />
           </div>
-          <p className="">Google GenAI Study Jams 2024</p>
+          <p className="">Google GenAI Study Jams</p>
         </div>
 
         <div className="p-3 flex mob:flex-col m-auto max-w-6xl justify-between items-center">
@@ -114,7 +114,7 @@ export default function Home() {
       <TableIndex />
 
       <div className="  w-full p-2 text-center bg-gray-900 text-gray-300">
-        Developed By{" "}
+        Developed & Maintained By{" "}
         <a
           className="text-orange-400"
         >
