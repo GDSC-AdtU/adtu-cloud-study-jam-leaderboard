@@ -6,7 +6,7 @@ function TableRow({ participant, rank }) {
     <tr className="border border-b-slate-200 odd:bg-white even:bg-gray-50">
       <td className="Rank p-3 text-center">
         <div className={`w-fit m-auto rounded-3xl px-4 py-1 text-center font-bold`}>
-          {rank == "1" ? "🥇" : rank == "2" ? "🥈" : rank == "3" ? "🥉" : rank}
+          {rank == "1" || rank == "2" || rank == "3" || rank == "4" ? "🥇" : rank == "5" ? "🥈" : rank == "6" ? "🥉" : rank}
         </div>
       </td>
       <td className="Student_Name p-3 uppercase">
