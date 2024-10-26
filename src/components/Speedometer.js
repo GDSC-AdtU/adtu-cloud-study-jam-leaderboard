@@ -4,31 +4,44 @@ function Speedometer({ completion }) {
   const [animationValue, setAnimationValue] = useState(0);
 
   useEffect(() => {
-    // Animate the speedometer when 'completion' prop changes
-    const animationDuration = 3000; // You can adjust the duration
-    let startValue = 0;
-    const endValue = completion;
-    console.log(completion)
+    const animationDuration = 3000; // Duration in ms
+    const frameRate = 60; // Frames per second
+    const totalFrames = (animationDuration / 1000) * frameRate;
+    const incrementValue = (completion - animationValue) / totalFrames;
 
+    let frame = 0;
     const animationInterval = setInterval(() => {
-      if (startValue >= endValue) {
-        clearInterval(animationInterval);
-      } else {
-        startValue += 1;
-        setAnimationValue(startValue);
-      }
-    }, (animationDuration / (endValue - startValue)) * 1);
+      frame += 1;
+      setAnimationValue((prev) => prev + incrementValue);
 
-    return () => {
-      clearInterval(animationInterval);
-    };
+      if (frame >= totalFrames) {
+        clearInterval(animationInterval);
+        setAnimationValue(completion);
+      }
+    }, 1000 / frameRate);
+
+    return () => clearInterval(animationInterval);
   }, [completion]);
+
+  // Calculate rotation based on the value
+  const getRotationAngle = () => {
+    if (animationValue <= 60) {
+      // Map 0-60 to -120 to 0 degrees
+      return (animationValue / 60) * 120 - 120;
+    } else if (animationValue <= 80) {
+      // Map 60-80 to 0 to 60 degrees
+      return ((animationValue - 60) / 20) * 60;
+    } else {
+      // Map 80-100 to 60 to 120 degrees
+      return ((animationValue - 80) / 20) * 60 + 60;
+    }
+  };
 
   return (
     <div className="relative w-full flex justify-center items-center">
       <div className="relative w-40 h-40 rounded-full bg-gray-400 flex justify-center items-center overflow-hidden">
         <div className="absolute w-32 h-32 bg-white rounded-full">
-          <div className="bg-green-500 w-28 h-28 absolute rotate-[] -bottom-2 -right-12"></div>
+          <div className="bg-green-500 w-28 h-28 absolute -bottom-2 -right-12"></div>
           <div className="bg-yellow-500 w-28 h-28 absolute rotate-[-30deg] -top-12 right-0 "></div>
           <div className="bg-yellow-500 w-28 h-28 absolute rotate-0 -top-5 -left-12"></div>
           <div className="bg-red-500 w-28 h-28 absolute rotate-[30deg] -left-20 -bottom-2 shadow-xl"></div>
@@ -37,7 +50,11 @@ function Speedometer({ completion }) {
         <div className="relative w-32 h-32 bg-white rounded-full "></div>
 
         <svg
-          className={`absolute z-10 w-40 h-20 -left-0 bottom-5 rotate-[${(animationValue / 100) * 240 - 120}deg] flex justify-center items-center text-center`}
+          className="absolute z-10 w-40 h-20"
+          style={{
+            transform: `rotate(${getRotationAngle()}deg)`,
+            transformOrigin: "center bottom",
+          }}
           viewBox="0 0 528 52"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -52,15 +69,13 @@ function Speedometer({ completion }) {
       </div>
       <div className="absolute -bottom-5 w-60 h-20 bg-white rounded-t-full text-center font-semibold px-5 pt-10 text-black-500">
         <p className="bottom-0">
-          {animationValue >= 79
-            ? animationValue >= 60
-              ? animationValue >= 40
-                ? "Outstanding"
-                : "Tier 1"
-              : "Tier 2"
-            : "No Tier"}
+          {animationValue >= 80
+            ? "Tier 1"
+            : animationValue >= 60
+              ? "Tier 2"
+              : "No Tier"}
         </p>
-        <p>{`${animationValue}`}</p>
+        <p>{Math.round(animationValue)}</p>
       </div>
     </div>
   );

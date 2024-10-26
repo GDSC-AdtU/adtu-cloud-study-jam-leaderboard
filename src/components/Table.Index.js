@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import TableBody from "./TableBody";
 import dataArr from "../../public/data.json";
-import Speedometer from "./Speedometer";
 
 function TableIndex() {
   // JSON file gone print here
@@ -37,11 +36,11 @@ function TableIndex() {
   return (
     <div className="w-full relative px-3">
       <div className="sec m-auto my-10 space-y-8 w-1/2 mob:w-full flex flex-col">
-        <div className="message bg-red-100 text-red-700 p-5 rounded-lg shadow-lg shadow-black-300/30 text-center border border-black-300/30">
-          <p className="text-center">Deadline: </p>
+        <div className="message bg-red-100 border border-red-200 text-red-700 p-5 rounded-lg shadow-lg shadow-black-300/30 text-center border border-black-300/30">
+          <p className="text-center ">Deadline: </p>
           <p>31st October 2024 | 11:59 PM {"(IST)"}</p>
         </div>
-        <Speedometer completion={EligibleforSwags} />
+
 
         <div className="info flex mob:flex-col mob:justify-center mob:items-center mob:space-y-10 mob:p-5 justify-evenly space-x-3 mob:space-x-0">
           <div className="eligibleforswag w-fit mob:w-full h-20 p-5 space-x-5 rounded-lg flex flex-row justify-evenly mob:justify-between items-center bg-green-50 shadow-lg shadow-green-300/30 border border-green-200">
